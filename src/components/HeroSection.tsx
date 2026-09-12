@@ -1,0 +1,49 @@
+import React from "react";
+import heroImg from '../assets/banner-stack.png'
+const HeroSection = () => {
+    return (
+        <section className="min-h-screen bg-white flex items-center justify-center px-6 py-12 lg:px-16">
+            <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+
+                {/* Left Column: Text Content */}
+                <div className="flex flex-col items-start space-y-6">
+
+                    {/* Main Heading */}
+                    <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-900 leading-tight">
+                        Build Your Ideal <br />
+                        <span className="bg-gradient-to-r from-orange-500 via-pink-500 to-purple-600 bg-clip-text text-transparent">
+                            Development Stack
+                        </span>
+                    </h1>
+
+                    {/* Subtitle Description */}
+                    <p className="text-slate-500 text-base sm:text-lg max-w-xl leading-relaxed">
+                        Explore frontend, backend, database, and tooling options, compare them side by side, and put together the stack that fits your next project.
+                    </p>
+
+                    {/* Action Buttons */}
+                    <div className="flex flex-wrap items-center gap-4 pt-2">
+                        {/* Primary Button */}
+                        <button className="bg-gradient-to-r from-orange-500 to-pink-500 hover:from-orange-600 hover:to-pink-600 text-white font-medium text-sm rounded-xl px-6 py-3 transition duration-200 shadow-sm focus:outline-none">
+                            Explore Technologies
+                        </button>
+
+                        {/* Secondary Button */}
+                        <button className="bg-white border border-slate-200 hover:border-slate-300 hover:bg-slate-50 text-slate-600 font-medium text-sm rounded-xl px-8 py-3 transition duration-200 focus:outline-none">
+                            Learn More
+                        </button>
+                    </div>
+
+                </div>
+
+                {/* Right Column: Illustration */}
+                <div className="flex justify-center lg:justify-end">
+                    <img src={heroImg} alt="" />
+                </div>
+
+            </div>
+        </section>
+    );
+};
+
+export default HeroSection;

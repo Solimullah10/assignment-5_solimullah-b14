@@ -11,7 +11,9 @@ const Navbar = () => {
       <nav className="relative flex h-20 items-center justify-between px-7">
 
         {/* Logo */}
-        <img src={logo} alt="Logo" />
+        <a href="">
+            <img src={logo} alt="Logo" />
+        </a>
 
 
         {/* Desktop Menu */}
