@@ -7,6 +7,7 @@ import Navbar from './components/Navbar'
 import HeroSection from './components/HeroSection'
 import Cards from './components/card/Cards'
 import type { Icard } from './types/card'
+import SectionHeader from './components/SectionHeader'
 
 
 
@@ -23,6 +24,7 @@ function App() {
     <Toaster position="top-right" reverseOrder={false} />
      <Navbar/>
      <HeroSection/>
+     <SectionHeader/>
      <Suspense
   fallback={
     <div className="flex flex-col justify-center items-center py-20 space-y-3">

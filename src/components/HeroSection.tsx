@@ -2,8 +2,8 @@ import React from "react";
 import heroImg from '../assets/banner-stack.png'
 const HeroSection = () => {
     return (
-        <section className="min-h-screen bg-white flex items-center justify-center px-6 py-12 lg:px-16">
-            <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+        <section>
+            <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center gap-4 px-4 sm:px-6 lg:px-8">
 
                 {/* Left Column: Text Content */}
                 <div className="flex flex-col items-start space-y-6">
