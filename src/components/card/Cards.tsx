@@ -1,4 +1,4 @@
-import React, { use, useState } from 'react';
+import { use, useState } from 'react';
 import toast from 'react-hot-toast';
 import type { Icard } from '../../types/card';
 import AvailableCards from './AvailableCards';
